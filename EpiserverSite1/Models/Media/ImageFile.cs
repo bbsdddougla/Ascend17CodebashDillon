@@ -16,5 +16,7 @@ namespace EpiserverSite1.Models.Media
         /// The copyright.
         /// </value>
         public virtual string Copyright { get; set; }
+
+        public string[] MetadataText { get; set; }
     }
 }
