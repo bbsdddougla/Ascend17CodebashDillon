@@ -34,7 +34,7 @@ public class PublishEventInitializationModule : IInitializableModule
 
         var results = analyzer.AnalyzeText(document);
 
-        //TODO:Add results to property
+        page.MetadataText = results;
     }
 
     public ISearchDocument CreateDocument(StandardPage page)

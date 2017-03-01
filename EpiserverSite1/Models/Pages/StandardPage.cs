@@ -22,5 +22,7 @@ namespace EpiserverSite1.Models.Pages
             GroupName = SystemTabNames.Content,
             Order = 320)]
         public virtual ContentArea MainContentArea { get; set; }
+
+        public string[] MetadataText { get; set; }
     }
 }
