@@ -362,6 +362,7 @@
     <Compile Include="Business\Rendering\ICustomCssInContentArea.cs" />
     <Compile Include="Business\Rendering\SiteViewEngine.cs" />
     <Compile Include="Business\Rendering\TemplateCoordinator.cs" />
+    <Compile Include="Business\SearchAnalyzation\IImageAnalyzerService.cs" />
     <Compile Include="Business\SearchAnalyzation\ITextServiceAnalyzer.cs" />
     <Compile Include="Business\SearchAnalyzation\SearchDocument.cs" />
     <Compile Include="Business\SearchAnalyzation\TextServiceAnalyzer.cs" />
