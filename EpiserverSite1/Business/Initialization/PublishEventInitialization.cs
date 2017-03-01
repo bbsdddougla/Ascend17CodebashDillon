@@ -2,6 +2,7 @@
 using EPiServer.Framework;
 using EPiServer.Framework.Initialization;
 using EPiServer.ServiceLocation;
+using EpiserverSite1.Business.SearchAnalyzation;
 using EpiserverSite1.Models.Pages;
 
 namespace EpiserverSite1.Business.Initialization
